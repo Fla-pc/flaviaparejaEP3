@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index01.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Moul&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <div class="logo">
+        <img src="image/Parqueleyendas2.webp" alt="Logo de la página"> 
+        </div> 
+            <nav> 
+                <ul> 
+                    <li><a href="#contenedor1"><i class="fa-solid fa-house"></i>    Inicio</a></li>
+                    <li><a href="#contenedor2"><i class="fas fa-info-circle"></i>   Datos</a></li> 
+                    <li><a href="#contenedor4"><i class="fa-solid fa-location-dot"></i> Mapas</a></li> 
+                    <li><a href="#contenedor5"><i class="fa-solid fa-images"></i>   Galeria</a></li> 
+                </ul> 
+            </nav> 
+    </header>
+    
+    <section id="contenedor1" class="contenedor1">
+        <div class="video">
+            <video src="image/Diseño sin título.mp4" width="100%" autoplay loop muted></video>
+            <div class="titulovideo">
+                <h2>BIENVENIDOS</h2>
+                <a href="https://www.samsung.com/pe/monitors/smart/samsung-smart-monitor-ecard-s-l-smarthecard/?available-online" class="btn">
+                    <i class="fa-solid fa-globe"></i> Ingresar A Mi Página </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contenedor2" class="contenedor2">
+        <div class="datos">
+            <h2>ENVÍA TUS DATOS</h2>
+            <p>Gracias por tu interés en nuestros servicios. Al enviar tus datos, podrás acceder a contenido exclusivo, actualizaciones importantes y ofertas especiales que hemos preparado especialmente para ti. 
+            <br>Tu información será tratada con la mayor seguridad y privacidad, y solo la utilizaremos para enviarte comunicaciones relevantes. </p>
+        </div>
+    </section>
+
+    <section class="contenedor3">
+        <div class="grilla1">
+            <div class="caja a">
+                <img src="image/jirafa.jpg" alt="">
+            </div>
+            <div class="caja b">
+                <form action="#">
+                    <div class="filas">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="filas">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="filas">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contenedor4" class="contenedor4">
+        <div class="mapa">
+            <h2>NUESTRA UBICACIÓN</h2>
+            <p>Visítanos en nuestra sede y disfruta de una experiencia única en el parque. 
+                <br>Estamos ubicados en un punto de fácil acceso, ideal para compartir en familia o con amigos.</p>
+        </div>
+        <div class="columna google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.269334573606!2d-77.0554792261038!3d-12.093705042774102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9aa6b702e0f%3A0x55c71153c8c3bda4!2sISIL%20-%20San%20Isidro!5e0!3m2!1ses-419!2spe!4v1731396263993!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="contenedor5" class="contenedor5">
+        <div class="galeria">
+            <h2>NUESTRA GALERIA DE IMAGENES</h2>
+            <p>Explora la diversidad del reino animal a través de nuestra galería de imágenes. 
+                Cada fotografía captura la esencia de estos increíbles seres, su belleza y sus comportamientos únicos.
+            <br>Ven a conocer más de cerca a nuestros animales y descubre la maravilla de la naturaleza en cada rincón de nuestro parque. 
+            <br>¡Déjate sorprender y acércate un poco más a la vida salvaje!</p>
+        </div>
+
+        <div class="grilla2">
+            <div class="grilla-imagen">
+                <img src="image/osos.jpg" alt="Imagen 1">
+                <p>OSOS</p>
+            </div>
+            <div class="grilla-imagen">
+                <img src="image/cebras.jpg" alt="Imagen 2">
+                <p>CEBRAS</p>
+            </div>
+            <div class="grilla-imagen">
+                <img src="image/hipopotamos.jpg" alt="Imagen 3">
+                <p>HIPOPOTAMOS</p>
+            </div>
+            <div class="grilla-imagen">
+                <img src="image/pandas.jpg" alt="Imagen 4">
+                <p>PANDAS</p>
+            </div>
+            <div class="grilla-imagen fila2">
+                <img src="image/monos.jpg" alt="Imagen 5">
+                <p>MONOS</p>
+            </div>
+            <div class="grilla-imagen fila2">
+                <img src="image/leones.jpg" alt="Imagen 6">
+                <p>LEONES</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-contenedor">
+            <div class="footer-item">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-square-x-twitter"></i>Twitter</a>
+                </div>
+            </div>
+    
+            <div class="footer-item">
+                <h3>Alumno</h3>
+                <p>Flavia Alessandra Pareja Cabezas</p>
+            </div>
+    
+            <div class="footer-item">
+                <h3>Contacto</h3>
+                <p>Tel. fijo: 7748665</p>
+                <p>Tel. movil: 912312312</p>
+            </div>
+    
+            <div class="footer-item">
+                <h3>Instituto</h3>
+                <p>ISIL</p>
+                <p>San Isidro, Lima</p>
+            </div>
+    
+            <div class="footer-item">
+                <h3>Carrera</h3>
+                <p>Sistemas de Información</p>
+                <p>2024</p>
+            </div>
+    
+            <div class="footer-item">
+                <h3>Docente</h3>
+                <p>Roberto Inga Alvarado</p>
+            </div>
+        </div>
+    </footer>
+
+    
+            
+</body>
+</html>
